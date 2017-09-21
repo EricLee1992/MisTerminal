@@ -8,10 +8,105 @@
 		<link rel="stylesheet" href="css/comm/bootstrap.min.css" />
 	</head>
 	<body>
-		<h1>这是标题1<small>这是副标题1</small></h1>
-		<p class="text-left">测试段1</p>
-		<p class="text-info">测试段2</p> 
-		<script src="js/comm/bootstrap.min.js"></script>
+		<div class="container">
+			<h1>我是大标题<small>大副标题</small></h1>
+			<h2 class="text-muted">我是标题2</h2>
+			<h3 class="text-success">我是标题3</h3>
+			<h4 class="text-danger">我是标题4</h4>
+			<h5 class="text-warning">我是标题5</h5>
+			<div class="row">
+				<div class="col-md-6">
+					<div class="table-responsive">
+						<table class="table table-striped table-hover">
+							<caption>这是一个响应式表格</caption>
+							<thead>
+								<tr>
+									<th>姓名</th>
+									<th>性别</th>
+									<th>年龄</th>
+									<th>公司</th>
+									<th>职务</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>小王</td>
+									<td>男</td>
+									<td>24</td>
+									<td>milestone company</td>
+									<td>营业经理</td>
+								</tr>
+								<tr>
+									<td>小王</td>
+									<td>男</td>
+									<td>24</td>
+									<td>milestone company</td>
+									<td>营业经理</td>
+								</tr>
+								<tr>
+									<td>小王</td>
+									<td>男</td>
+									<td>24</td>
+									<td>milestone company</td>
+									<td>营业经理</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+				<div class="col-md-6">
+					大盒子
+					<div class="row">
+						<div class="col-md-3" style="background: #3C763D;">1</div>
+						<div class="col-md-4" style="background: #4CAE4C;">2</div>
+						<div class="col-md-5" style="background: #5E5E5E;">3</div>
+					</div>
+					<form role="form" class="form-horizontal">
+						<div class="form-group">
+							<label for="username" class="control-label col-md-2">姓名：</label>
+							<div class="col-md-10">
+								<input type="text" id="username" class="form-control input-sm" placeholder="请输入姓名" />
+							</div>
+						</div>
+						<div class="form-group has-warning">
+							<label for="password">密码：</label>
+							<input type="password" id="password" class="form-control" placeholder="请输入密码" />
+						</div>
+						<div class="checkbox">
+							<label>
+								<input type="checkbox" />篮球
+							</label>
+						</div>
+						<div class="checkbox">
+							<label>
+								<input type="checkbox" />足球
+							</label>
+						</div>
+						<div class="radio has-success">
+							<label class="radio-inline">
+								<input type="radio" />男
+							</label>
+							<label class="radio-inline">
+								<input type="radio" />女
+							</label>
+						</div>
+						<div class="form-group">
+							<input type="date" class="form-control" />
+						</div>
+						<div class="form-group has-error">
+							<label for="select1">下拉框测试</label>
+							<select class="form-control" id="select1">
+								<option>下拉框一</option>
+								<option>下拉框二</option>
+								<option>下拉框三</option>
+								<option>下拉框四</option>
+							</select>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
 		<script src="js/comm/jquery-3.2.1.min.js"></script>
+		<script src="js/comm/bootstrap.min.js"></script>
 	</body>
 </html>
